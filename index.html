@@ -1,0 +1,157 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BuyArtByInsta - Trendy Art Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff8f5;
+    }
+
+    header {
+      background: linear-gradient(to right, #ff5f6d, #ffc371);
+      color: white;
+      padding: 25px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 34px;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 15px;
+      margin-top: 8px;
+    }
+
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 30px 20px;
+    }
+
+    .product {
+      background-color: white;
+      border-radius: 14px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+      width: 250px;
+      margin: 15px;
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .product:hover {
+      transform: scale(1.03);
+    }
+
+    .product img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .product h3 {
+      margin: 12px 0 6px;
+      font-size: 20px;
+      color: #333;
+    }
+
+    .product p {
+      margin: 0;
+      font-size: 15px;
+      color: #555;
+    }
+
+    .buy-button {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 10px 18px;
+      background-color: #ff5f6d;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    .buy-button:hover {
+      background-color: #e84556;
+    }
+
+    footer {
+      text-align: center;
+      padding: 18px;
+      background-color: #f7f7f7;
+      color: #777;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      .product-list {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .product {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🛍 BuyArtByInsta</h1>
+    <p>Your Destination for Trendy Art, Decor & Gifts</p>
+    <p>WhatsApp Orders: <strong>+91 91030 08451</strong></p>
+  </header>
+
+  <div class="product-list">
+    <div class="product">
+      <img src="https://via.placeholder.com/300x160?text=Neon+Board" alt="Neon Board">
+      <h3>Custom Neon Board</h3>
+      <p>From ₹999</p>
+      <a class="buy-button" href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20order%20a%20Custom%20Neon%20Board" target="_blank">Buy Now</a>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/300x160?text=LED+Lamp" alt="LED Lamp">
+      <h3>LED Moon Lamp</h3>
+      <p>₹799</p>
+      <a class="buy-button" href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20order%20the%20LED%20Moon%20Lamp" target="_blank">Buy Now</a>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/300x160?text=Teddy+Bear" alt="Teddy Bear">
+      <h3>Giant Teddy Bear</h3>
+      <p>₹1499</p>
+      <a class="buy-button" href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20order%20the%20Giant%20Teddy%20Bear" target="_blank">Buy Now</a>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/300x160?text=Keychain" alt="Custom Keychain">
+      <h3>Name Keychain</h3>
+      <p>₹199</p>
+      <a class="buy-button" href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20order%20a%20Name%20Keychain" target="_blank">Buy Now</a>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/300x160?text=Toy+Car" alt="Toy Car">
+      <h3>Remote Toy Car</h3>
+      <p>₹499</p>
+      <a class="buy-button" href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20order%20the%20Remote%20Toy%20Car" target="_blank">Buy Now</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 BuyArtByInsta • All rights reserved.
+  </footer>
+
+</body>
+</html>
